@@ -25,7 +25,7 @@ cmd_vel:
         max: 1
         to: angular.z
     angular.x: 1   # if not 0
-pose_setpoint:
+cmd_pose:
     type: geometry_msgs/Pose
     x: 
         min: -10
